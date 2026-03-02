@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:background="@color/blue">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/outline_volume_off_24">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/outline_android_wifi_4_bar_24">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/outline_android_cell_5_bar_24">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text=" 67%"
+            android:textSize="17dp"
+            android:textColor="@color/white">
+        </TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/outline_battery_4_bar_24">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="6:23 p.m."
+            android:textSize="17dp"
+            android:textColor="@color/white">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="50"
+        android:background="@android:color/holo_blue_dark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="30dp">
+        </TextView>
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:text="Email"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/grey"
+            android:background="@color/white">
+        </EditText>
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:text="Password"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/grey"
+            android:background="@color/white">
+        </EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="50dp"
+            android:text="Go !"
+            android:textSize="20dp"
+            android:backgroundTint="@android:color/holo_blue_light">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:weightSum="100"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Login With Facebook"
+            android:textSize="20dp"
+            android:backgroundTint="@color/blue">
+        </Button>
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="Login With Twitter"
+            android:textSize="20dp"
+            android:backgroundTint="@android:color/holo_blue_dark">
+        </Button>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Create an Account"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background=""
+            android:textColor="@color/grey">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="49"
+                android:gravity="center"
+                android:text="About us"
+                android:textColor="@color/grey"
+                android:textSize="18dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:text="  | "
+                android:textSize="20dp"
+                android:textColor="@color/grey">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="49"
+                android:gravity="center"
+                android:text="Contact"
+                android:textColor="@color/grey"
+                android:textSize="18dp">
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

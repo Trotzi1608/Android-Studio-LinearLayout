@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:background="@color/grey"
+        android:text=" Relative Layout Examples"
+        android:textColor="@color/white"
+        android:textStyle="bold">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="30"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:weightSum="30"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="10"
+                android:layout_marginRight="130dp"
+                android:background="@android:color/holo_red_dark"
+                android:text="@string/red"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="10"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="@string/orange"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_weight="10"
+                android:layout_marginLeft="100dp"
+                android:background="@color/yellow"
+                android:text="@string/yellow"
+                android:textColor="@color/black">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginRight="170dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:gravity="center"
+                android:background="@color/green"
+                android:text="GREEN"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:background="@color/blue"
+                android:text="BLUE"
+                android:textColor="@color/white">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:gravity="center"
+                android:background="@color/indigo"
+                android:text="INDIGO"
+                android:textColor="@color/white">
+
+            </TextView>
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:background="@color/violet"
+                android:text="VIOLET"
+                android:textColor="@color/black">
+            </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
